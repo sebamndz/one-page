@@ -1,0 +1,14 @@
+tipo
+#6b6b6b
+#ffffff
+
+fondos
+#2c3e50
+#eeeeee
+#9a9a9a
+
+inicio
+About Us
+Our Team
+Portfolio
+Contact
