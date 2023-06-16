@@ -28,17 +28,14 @@ nav a:hover{
 
 h1 {
   font-size: 300%;
-  text-align: center;
-  margin: 20px 0;
 }
 
 h2 {
   font-size: 167%;
-  text-align: center;
 }
 
 h3 {
-  text-align: center;
+  width: 70%;
 }
 
 ul {
@@ -62,8 +59,9 @@ section h2,
 section h3 {
   font-family: 'proxima_nova_ltthin';
   text-align: center;
+  margin: 15px 0;
 }
-
+ 
 .caja-centrada {
   align-items: center;
   display: flex;
@@ -72,6 +70,10 @@ section h3 {
   margin: 0 auto;
   padding: 60px 0;
   width: 80%;
+}
+
+.caja-centrada img {
+  margin: 30px;
 }
 
 .caja-full-clara {
@@ -89,10 +91,81 @@ section h3 {
   color: #fff;
 }
 
-img {
-  margin: 30px;
-}
-
 footer p {
   font-size: 93.333%;
+}
+
+#contenedor-tarjetas {
+  display: flex;
+}
+.tarjeta-persona {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 25%;
+
+}
+
+.tarjeta-persona h2 {
+  font-family: 'Proxima Nova';
+  color: #6b6b6b;
+}
+.tarjeta-persona h3{
+  margin: 0;
+}
+.tarjeta-persona button {
+  background-color: #2c3e50;
+  color: white;
+  margin: 20px 0px;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.tarjeta-persona button img {
+  margin: 0;
+}
+.tarjeta-persona button:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+#contenedor-galeria {
+  display: flex;
+  }
+
+.elemento-galeria {
+  margin: 10px 10px;
+  width:33%;
+  background-color: #eeeeee;
+}
+
+.elemento-galeria h1 {
+  font-size: 333%;
+}
+
+.elemento-galeria span {
+  width: 33%;
+  height: 50%;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  color: #fff;
+  background-color: #6b6b6b;
+  height: 100px;
+}
+.titulo h2, .titulo h3 {
+  margin: 10px;
+  text-align: start;
+}
+.elemento-galeria .imagen {
+  width: 100px;
+  height: 100px;
 }
