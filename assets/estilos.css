@@ -48,14 +48,13 @@ ul {
 
 li {
   list-style: none;
-  animation: color 0.3s ease;
-
 }
 
 a {
   color: #6b6b6b;
   margin: 20px;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 section h1,
