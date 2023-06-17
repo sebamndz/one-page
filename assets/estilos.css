@@ -136,36 +136,49 @@ footer p {
 
 #contenedor-galeria {
   display: flex;
+  flex-wrap: wrap;
   }
 
 .elemento-galeria {
-  margin: 10px 10px;
-  width:33%;
+  margin: 30px auto;
+  width:30%;
+  height: 400px;
   background-color: #eeeeee;
 }
 
-.elemento-galeria h1 {
-  font-size: 333%;
+.imagen {
+  height: 67%;
 }
 
-.elemento-galeria span {
-  width: 33%;
-  height: 50%;
-}
+.elemento-galeria h1 {
+  font-size: 333%;}
 
 .titulo {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
   color: #fff;
-  background-color: #6b6b6b;
-  height: 100px;
+  background-color: #9a9a9a;
+  height: 33%;
 }
 .titulo h2, .titulo h3 {
   margin: 10px;
   text-align: start;
 }
-.elemento-galeria .imagen {
-  width: 100px;
-  height: 100px;
+
+#enlace {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  width:30%;
+  height: 400px;
+}
+.elemento-galeria-enlace {
+  margin: 30px auto;
+  width:30%;
+  height: 400px;
+  background-color: #9a9a9a;
+}
+.elemento-galeria-enlace img {
+  margin: auto;
 }
