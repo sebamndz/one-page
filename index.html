@@ -10,15 +10,15 @@
     <body>
         <!-- Header -->
         <div id="header">
-            <header>
+            <header id="home">
                 <h1>LOGO</h1>
                 <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 </nav>
             </header>
@@ -33,7 +33,7 @@
                 </section>
             </div>
         <!-- 2da sección -->
-            <div class="caja-full-clara">
+            <div id="about" class="caja-full-clara">
                 <section class="caja-centrada">
                     <h1>About Us</h1>
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus vel, perferendis ratione commodi reprehenderit culpa expedita rem ea nemo, animi adipisci, soluta ullam. Ex sequi consectetur velit quo aperiam?</h3>
@@ -41,51 +41,53 @@
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lacinia lorem non consequat. Phasellus ut feugiat velit. Sed convallis, sapien id euismod malesuada, tortor ligula malesuada risus, at rhoncus arcu ligula ac ligula. Ut nec diam eget elit tincidunt blandit a vel enim. Quisque tincidunt velit sit amet elit lobortis consequat. Aliquam in ligula ac lectus auctor commodo sed a mi. In varius finibus vulputate. Ut consequat volutpat lectus. Nulla facilisi. Nunc in lobortis mi, ut fermentum nulla. Integer lacinia luctus est, eget semper felis aliquam ac. Sed eu consequat purus.</h3>
                 </section>
             </div>
-        <!-- 3ra sección -->
-            <div class="caja-full-media">
-                <section class="caja-centrada">
-                    <h1>Our Team</h1>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus vel, perferendis ratione commodi reprehenderit culpa expedita rem ea nemo, animi adipisci, soluta ullam. Ex sequi consectetur velit quo aperiam?</h3>
-                <div id="contenedor-tarjetas">                    <div class="tarjeta-persona">
-                    <img src="./assets/user-m.png" alt="user Masculino">
-                    <h2>Name</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
-                    <button type="button"><img src="./assets/correo.png" alt=""></button>
-                </div>
-                <div class="tarjeta-persona">
-                    <img src="./assets/user-m.png" alt="user Masculino">
-                    <h2>Name</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
-                    <button type="button"><img src="./assets/correo.png" alt=""></button>
-                </div>
-                <div class="tarjeta-persona">
-                    <img src="./assets/user-m.png" alt="user Masculino">
-                    <h2>Name</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
-                    <button type="button"><img src="./assets/correo.png" alt=""></button>
-                </div>
-                <div class="tarjeta-persona">
-                    <img src="./assets/user-m.png" alt="user Masculino">
-                    <h2>Name</h2>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
-                    <button type="button"><img src="./assets/correo.png" alt=""></button>
-                </div></div>
-
-
+        <!-- 3ra sección Our Team -->
+        <div id="team" class="caja-full-media">
+                    <section class="caja-centrada">
+                        <h1>Our Team</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus vel, perferendis ratione commodi reprehenderit culpa expedita rem ea nemo, animi adipisci, soluta ullam. Ex sequi consectetur velit quo aperiam?</h3>
+                        <!-- div contenedor de tarjetas -->
+                        <div id="contenedor-tarjetas">
+                                <!--tarjetas -->
+                                <div class="tarjeta-persona">
+                                    <img src="./assets/user-m.png" alt="user Masculino">
+                                    <h2>Name</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
+                                    <button type="button"><img src="./assets/correo.png" alt=""></button>
+                                </div>
+                                <div class="tarjeta-persona">
+                                    <img src="./assets/user-f.png" alt="user Femenino">
+                                    <h2>Name</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
+                                    <button type="button"><img src="./assets/correo.png" alt=""></button>
+                                </div>
+                                <div class="tarjeta-persona">
+                                    <img src="./assets/user-m.png" alt="user Masculino">
+                                    <h2>Name</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
+                                    <button type="button"><img src="./assets/correo.png" alt=""></button>
+                                </div>
+                                <div class="tarjeta-persona">
+                                    <img src="./assets/user-f.png" alt="user Femenino">
+                                    <h2>Name</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, magnam.</h3>
+                                    <button type="button"><img src="./assets/correo.png" alt=""></button>
+                                </div>
+                        </div>
                 </section>
             </div>
         <!-- 4ta sección -->
-        <div class="caja-full-clara">
+        <div id="portfolio" class="caja-full-clara">
                 <section class="caja-centrada">
                     <h1>Portfolio</h1>
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus vel, perferendis ratione commodi reprehenderit culpa expedita rem ea nemo, animi adipisci, soluta ullam. Ex sequi consectetur velit quo aperiam?</h3>
                     <nav id="nav-portfolio">
                         <ul>
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Identity</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Ilustration</a></li>
+                            <li><a href="#portfolio">All</a></li>
+                            <li><a href="#portfolio">Design</a></li>
+                            <li><a href="#portfolio">Identity</a></li>
+                            <li><a href="#portfolio">Photography</a></li>
+                            <li><a href="#portfolio">Ilustration</a></li>
                         </ul>
                     </nav>
                     <div id="contenedor-galeria">
@@ -168,14 +170,44 @@
                         </div>
                      </div>
                 </section>
+            </div>
         <!-- 5ta sección -->
-                <section class="caja-centrada">
-                    <h1>Contact</h1>
+                <section id="contact" class="caja-full-media">
+                    <div class="caja-centrada">                   
+                        <h1>Contact</h1>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque suscipit ea perferendis eos ullam quis, harum excepturi impedit? Illum, vel!</h3>
+                            <form action="/action_page.php">
+                                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br><br>
+                                
+                                <input type="text" id="address" name="address" placeholder="Enter your Address" required><br><br>
+                                
+                                <input type="text" id="city" name="city" placeholder="Enter your City" required><br><br>
+                                
+                                <input type="email" id="email" name="email" placeholder="Enter your Email Address" required><br><br>
+                                
+                                <textarea id="message" name="message" placeholder="Enter your Email Message" rows="4" cols="50" required></textarea><br><br>
+                                <div class="caja-centrada">
+                                <input type="submit" value="Submit">
+                                </div>
+                            </form></div>
                 </section>
         </main>
         <footer class="caja-full-clara">
             <div class="caja-centrada">
-            <p>Copyright &copy;Your Company 2014. All Rights Reserved</p>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li>:</li>
+                        <li><a href="#about">About</a></li>
+                        <li>:</li>
+                        <li><a href="#team">Team</a></li>
+                        <li>:</li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li>:</li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <p>Copyright &copy;Your Company 2014. All Rights Reserved</p>
             </div>
         </footer>
     </body>
