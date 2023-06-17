@@ -40,7 +40,6 @@ h3 {
 
 ul {
   display: flex;
-  justify-content: space-between;
 }
 
 li {
@@ -130,7 +129,24 @@ footer p {
 .tarjeta-persona button:hover {
   transform: scale(1.1);
 }
+#nav-portfolio ul {
+  margin: 10px;
+}
 
+#nav-portfolio a {
+  border: 2px solid #9a9a9a;
+  border-radius: 4px;
+  color: #9a9a9a;
+  padding: 10px 30px;
+  margin: 10px;
+}
+#nav-portfolio a:hover {
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+}
+#nav-portfolio h3{
+  font-size: 120%;
+}
 
 
 
