@@ -5,26 +5,12 @@
   padding: 0;
 }
 
-header {
-  align-items: center;
-  background-color: #2c3e50;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  position: fixed;
-  width: 80%;
-  padding: 0% 10%;
+/*Elementos*/
+
+nav {
+  display: inline;
 }
 
-header h1 {
-  color: #fff;
-  font-family: 'proxima_nova_altbold';
-  font-size: 200%;
-  font-weight: 100;
-}
-#header {
-  background-color: #2c3e50;
-}
 nav a:hover{
   color: #fff;
 }
@@ -56,14 +42,45 @@ a {
   transition: color 0.3s ease;
 }
 
+/*Header*/
+
+header {
+  align-items: center;
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: fixed;
+  width: 80%;
+  padding: 1% 10%;
+  z-index: 10;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'proxima_nova_altbold';
+  font-size: 200%;
+  font-weight: 100;
+}
+#header {
+  background-color: #2c3e50;
+}
+
+/*Estilo de secciones*/
+
 section h1,
 section h2,
 section h3 {
   font-family: 'proxima_nova_ltthin';
   text-align: center;
-  margin: 15px 0;
+  margin: 20px 0;
 }
- 
+#home h1 {
+  margin: 7% 0 0 0;
+}
+
+/*Contenedores*/
+
 .caja-centrada {
   align-items: center;
   display: flex;
@@ -77,7 +94,7 @@ section h3 {
 .caja-centrada img {
   margin: 30px;
 }
-
+/*estilo de caja*/
 .caja-full-clara {
   background-color: #fff;
   color: #6b6b6b;
@@ -93,13 +110,13 @@ section h3 {
   color: #fff;
 }
 
-footer p {
-  font-size: 93.333%;
-}
+/*Contenedor de tarjetas*/
 
 #contenedor-tarjetas {
   display: flex;
 }
+
+/*Estilos de las tarjetas*/
 .tarjeta-persona {
   align-items: center;
   display: flex;
@@ -107,16 +124,19 @@ footer p {
   justify-content: center;
   margin: auto;
   width: 25%;
-
 }
 
 .tarjeta-persona h2 {
   font-family: 'Proxima Nova';
   color: #6b6b6b;
 }
+
 .tarjeta-persona h3{
   margin: 0;
 }
+
+/*Botón para enviar correo*/
+
 .tarjeta-persona button {
   background-color: #2c3e50;
   color: white;
@@ -126,12 +146,17 @@ footer p {
   border-radius: 5px;
   transition: transform 0.3s;
 }
+
 .tarjeta-persona button img {
   margin: 0;
 }
+
 .tarjeta-persona button:hover {
   transform: scale(1.1);
 }
+
+/*Navegación de Portafolio*/
+
 #nav-portfolio ul {
   margin: 10px;
 }
@@ -143,47 +168,56 @@ footer p {
   padding: 10px 30px;
   margin: 10px;
 }
+
 #nav-portfolio a:hover {
   border: 2px solid #2c3e50;
   color: #2c3e50;
 }
+
 #nav-portfolio h3{
   font-size: 120%;
 }
 
-
+/*Contenedores de Galeria*/
 
 #contenedor-galeria {
   display: flex;
   flex-wrap: wrap;
-  }
+}
 
-.elemento-galeria {
+figure {
   margin: 30px auto;
   width:30%;
   height: 400px;
   background-color: #eeeeee;
+  position: relative;
 }
 
-.imagen {
+.imagen-galeria {
   height: 67%;
 }
 
-.elemento-galeria h1 {
-  font-size: 333%;}
+figure h1 {
+  font-size: 333%;
+}
 
-.titulo {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+/*Caja debajo de la imagen, o titulo de la imagen*/
+
+figcaption {
+  display: block;
+  padding: 5px;
   color: #fff;
   background-color: #9a9a9a;
   height: 33%;
+  position: absolute;
 }
-.titulo h2, .titulo h3 {
+
+figcaption h2, figcaption h3 {
   margin: 10px;
   text-align: start;
 }
+
+/*Caja al centro de la galeria con un enlace*/
 
 #enlace {
   display: flex;
@@ -192,15 +226,18 @@ footer p {
   width:30%;
   height: 400px;
 }
+
 .elemento-galeria-enlace {
   margin: 30px auto;
   width:30%;
   height: 400px;
   background-color: #9a9a9a;
 }
+
 .elemento-galeria-enlace img {
   margin: auto;
 }
+
 /*Form de contacto*/
 form {
   max-width: 400px;
@@ -238,10 +275,18 @@ input[type="submit"]:hover {
   color: #9a9a9a;
 }
 
+/*Footer*/
+
+footer p {
+  font-size: 93.333%;
+  margin: 15px auto;
+}
+
 footer nav {
   display: flex;
   justify-content: space-around;
   width: 80%;
+  padding: 1% 10%;
 }
 
 footer nav a:hover {
